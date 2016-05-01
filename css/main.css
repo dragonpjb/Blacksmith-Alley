@@ -1,0 +1,512 @@
+/********************************************Universal********************************************
+
+**************************************************************************************************/	
+*
+	{margin: 0;
+	padding: 0;
+	}
+body
+	{background-color: #000;
+	font-size: 12px;
+	line-height: 140%;
+	font-family: Trebuchet MS, Arial, sans-serif;
+	color: #000;
+	}
+img
+	{border:0 none;
+	}	
+a
+	{text-decoration: none;
+	color: #000;
+	border: 0;
+	
+	}
+a:visited
+	{text-decoration: none;
+	color: #000;
+	border: 0;
+	}
+a:hover
+	{text-decoration: none;
+	color: #fff;
+	background-color: #333;
+	border: 0;
+	}
+a:active
+	{text-decoration: none;
+	color: #C00;
+	border: 0;
+	}	
+ul
+	{/*list-style-type: none;*/}
+li
+	{list-style-position: inside;
+	/*list-style-type: none;*/
+	}	
+h1
+	{font-size: 24px;
+	padding: 30px 0px 10px 0px;
+	}
+	
+h2
+	{font-size: 16px;
+	padding: 0px 0px 10px 0px;
+	}
+h3
+	{font-size: 14px;
+	}
+p
+	{padding: 0px 0px 10px 0px;
+	}
+
+table
+	{border-collapse:collapse;
+	
+	}
+tr
+	{
+	}
+th
+	{padding: 3px 7px 3px 7px;
+	border:1px solid #CCC;
+	background-color: #333;
+	color: #FFF;
+	}
+td
+	{padding: 3px 7px 3px 7px;
+	border:1px solid #CCC
+	}
+/********************************************nav_cat***********************************************
+
+****************************************************************************************************/		
+ul.nav_cat
+	{padding: 5px 0 20px 15px; 
+	}
+h3.nav_cat
+	{padding: 5px 0 5px 15px;
+	}
+
+/********************************************nav****************************************************
+
+****************************************************************************************************/	
+.nav
+	{font-size: 12px;
+	font-weight: bold;
+	
+	}
+/********************************************main_nav*********************************************
+These rules controls the appearance of the main navigation bar
+****************************************************************************************************/	
+ 
+.main_nav
+	{float: left;
+	font-size: 12px;
+	font-weight: bold;
+	}	
+ul.main_nav
+	{
+	}	
+li.main_nav
+	{
+	}
+#nav_main
+	{width: 960px;
+	padding: 0px;
+	background-image: url('http://www.blacksmithalley.com/images/nav-bar.gif');
+	background-repeat: no-repeat;
+	}
+#nav_main a
+		{color: #fff;
+		}
+#nav_main a:visited
+		{text-decoration: none;
+		color: #fff;
+		border: 0;
+		}
+#nav_main a:hover
+	{text-decoration:none;
+	color: #0f0;
+	border: 0;
+	}
+#nav_main a:active
+	{text-decoration: none;
+	color: #C00;
+	border: 0;
+	}
+#nav_main ul
+	{padding: 7px 25px 7px 25px;
+	}
+#nav_left
+	{float: left;
+	}
+#nav_left ul
+	{padding: 0 10px 0 0;
+	}
+#nav_left li
+	{display: inline;
+	list-style-type: none;
+	padding-right: 15px;
+	}
+#nav_right
+	{float: right;
+	}
+#nav_right li
+	{display: inline;
+	list-style-type: none;
+	padding-left: 15px;
+	}
+#nav_lesson ul
+	{
+	}
+#nav_lesson li
+	{display: inline;
+	list-style-type: none;
+	}
+/********************************************general formatting************************************
+These classes are to make general placement of the elements on a page easier.
+*****************************************************************************************************/	
+.left
+	{float: left;
+	}
+.right
+	{float: right;
+	}
+.clear
+	{clear: both;
+	}
+.level
+	{float: left;
+	width: 760px;
+	 /*border: 1px solid #000;*/
+	}
+.col-2
+	{width:380px;
+	padding-bottom: 15px;
+	/* border: 1px solid #000; 	*/
+	}
+.col-3a
+	{width: 235px;
+	margin: 0px 10px 0px 0px;
+	 /*border: 1px solid #000; 	*/
+	}
+.col-3b
+	{width: 235px;
+	margin: 0px 10px 0px 10px;
+	 /*border: 1px solid #000; 	*/
+	}
+.col-3c
+	{width: 235px;
+	margin: 0px 15px 0px 10px;
+	 /*border: 1px solid #000; 	*/
+	}	
+.col-4
+	{width: 185px;
+	 /*border: 1px solid #000;	 */
+	}	
+.ital
+	{font-style: italic;
+	}
+li.vrt_lst
+	{list-style-position: inside;
+	
+	}
+li.flat_lst
+	{display: inline;
+	list-style-type: none;
+	}
+
+p.pict
+	{text-align:center;
+	}
+	
+	
+/********************************************individual elements**********************************
+These are the styles for individual elements.
+****************************************************************************************************/	
+#wrapper
+	{margin: 0 auto;
+	width: 960px;
+	background-color:#fff;
+	}
+#branding img
+	{width:930px;
+	padding:15px 15px 5px 15px;
+	}
+#level-1
+	{padding: 0px 0px 25px 0px;
+	}
+#title_block
+	{width:380px;
+	padding: 0px 0 0 0;
+	}
+#title_block p
+	{padding-right: 20px;
+	}
+
+#ref_list
+	{float: left;
+	margin: 30px  0px  0px  0px;
+	width: 365px;
+	/*background-color: #CCC;*/
+	font-size: 13px;
+	}
+#ref_list ul
+	{padding:10px 20px 10px 20px;
+	
+	}
+#ref_list li
+	{list-style-position:inside;
+	padding: 5px 0px 5px 0px;
+	}
+#ref_list h2
+	{color:#000;
+	
+	background-image: url('../images/ref3.png');
+	color:#FFF;
+	
+	padding: 5px 10px 5px 10px;/**/
+	}
+#box
+	{background-color: #ccc;
+	float:left;
+	width: 365px;
+	}
+#l-1 
+	{
+	}
+#nav_sup
+	{float: left;
+	width:200px;
+	padding-top: 30px;
+	}
+#nav_sup h3
+	{ padding-left: 15px;
+	}
+#nav_sup ul
+	{
+	}
+#nav_sup li
+	{list-style-type: none;
+	padding: 0px 0px 5px 0px;
+	}
+#content_main
+	{float:right;
+	width:760px;
+	/* border: 1px solid #000; 	*/
+	}
+#site_info
+	{clear: both;
+	padding: 20px 0px 0px 0px;
+	}
+#site_info address
+	{padding: 10px 0px 10px 200px;
+	}
+/********************************************charts**********************************
+These are the styles for individual tables and charts.
+**************************************************************************************/	
+
+#heat_colors
+	{width: 365px;
+	}
+
+#heat_chart
+	{border-collapse: collapse;
+	width:100%;
+	}
+#heat_chart td
+	{
+	}
+#heat_chart td, #heat_chart th
+	{border: 1px solid #CCCCCC;
+	padding: 3px 7px 2px 7px;
+	text-align: left;
+	}
+#heat_chart th 
+	{background-color: #FFFFCC;
+	color: #000;
+	}
+#hc-r3-d3
+	{background-color: #FEFDBD;
+	}
+#hc-r4-d3
+	{background-color: #FFEFAF;
+	}
+#hc-r5-d3
+	{background-color: #FFE191;
+	}
+#hc-r6-d3
+	{background-color: #FFC358;
+	}
+#hc-r7-d3
+	{background-color: #FF9F34;
+	}
+#hc-r8-d3
+	{background-color: #FD6F41;
+	}
+#hc-r9-d3
+	{background-color: #DB4453;
+	}
+#hc-r10-d3
+	{background-color: #C44652;
+	}
+#hc-r11-d3
+	{background-color: #B34852;
+	}
+#hc-r12-d3
+	{background-color: #8C4A4E;
+	}
+#hc-r13-d3
+	{background-color: #7F464C;
+	}
+	
+#temper_colors
+	{float:right;
+	padding: 0px 16px 0px 0px;
+	width: 365px;
+	}
+#temper_chart
+	{border-collapse: collapse;
+	width: 100%;
+	}
+#temper_chart tr
+	{
+	}
+#temper_chart td, #temper_chart th
+	{border: 1px solid #CCCCCC;
+	padding: 3px 7px 2px 7px;
+	text-align: left;
+	}
+#temper_chart th
+	{background-color: #FFFFCC;
+	color: #000;
+	}
+#tc-r1-d2
+	{width:33.33%;
+	}
+#tc-r3-d3
+	{background-color: #6697D1;
+	}
+#tc-r4-d3
+	{background-color: #6A6A8C;
+	}
+#tc-r5-d3
+	{background-color: #A3656A;
+	}
+#tc-r6-d3
+	{background-color: #EC5854;
+	}
+#tc-r7-d3
+	{background-color: #FE7853;
+	}
+#tc-r8-d3
+	{background-color: #FDAF4D;
+	}
+#tc-r9-d3
+	{background-color: #FFCE49;
+	}
+#tc-r10-d3
+	{background-color: #FFC84A;
+	}
+#tc-r11-d3
+	{background-color: #FDD444;
+	}
+#tc-r12-d3
+	{background-color: #FFE342;
+	}
+#tc-r13-d3
+	{background-color: #FFF05C;
+	}
+
+
+
+#gauge-chart-1 
+	{border-collapse: collapse;
+	}
+#gauge-chart-1 tr
+	{
+	}
+#gauge-chart-1 th
+	{
+	}
+#gauge-chart-1 td
+	{font-size: 11px;
+	}
+#gauge-chart-1 th, #gauge-chart-1 td
+	{border: 1px solid #CCCCCC;
+	padding: 3px 7px 2px 7px;
+	text-align: left;
+	}
+#site_info address
+	{padding:10px 0px 10px 200px;
+	}
+
+#history
+	{width:380px;
+	}
+
+#history p
+	{/*padding:10px;*/
+	float: left;
+	}
+#rule5
+	{padding-bottom: 5px;
+	}
+#rule5 li
+	{padding:5px;
+	}
+#cut_pic-1
+	{padding-left: 29px;
+	}
+#cut_pic-2
+	{padding-left: 55px;
+	}
+.zebra
+	{background-color: #EEE;
+	}
+#gauge-chart-1 th
+	{
+	}
+#volume_tbl 
+	{width: 745px;
+	margin-bottom: 20px;
+	}
+#area_tbl
+	{width: 365px;
+	
+	}	/**/
+#length_tbl
+	{margin-right: 15px;
+	width: 365px;
+	}
+#title
+		{width: 570px;
+		font-size: 18px;
+		padding-bottom: 25px;
+		line-height: 150%;
+		}	
+.blog
+		{width: 450px;
+		}
+img.illus
+		{float: right;
+		padding:0px 15px 30px 65px;
+		/*width: 300px;
+		padding-left: 65px;
+		padding-right: 15px;*/
+		}
+p.illus-300
+		{float: right;
+		padding-bottom: 30px;
+		}
+img.illus-300
+		{float: right;
+		padding-right: 15px;
+		width: 300px;
+		}
+div.about
+		{padding-bottom: 15px;
+		}
+p.about
+		{width: 500px;
+		}
+/**/

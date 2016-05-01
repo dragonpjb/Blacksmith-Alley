@@ -1,0 +1,42 @@
+.left
+	{float:left;
+	}
+.right
+	{float:right;
+	}
+.level
+	{float:left;
+	/* border: 1px solid #000;	*/
+	width:760px;
+	}
+#big_pict img
+	{width:744px;
+	padding-top: 27px;
+	}
+
+div.head_line
+	{
+	width:355px;
+	padding: 20px 10px 20px 10px;
+
+	}
+img.head_line
+	{float:left;
+	}
+h2.head_line
+	{float:left;
+	padding: 15px 0px 10px 0px;
+	}
+p.head_line
+	{clear:both;
+	padding: 0 20px 0 0 ;
+	}
+
+#content_main h1
+	{
+	}
+#site_des
+	{width:355px;
+	}
+
+	

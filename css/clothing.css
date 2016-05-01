@@ -1,0 +1,30 @@
+
+
+.level
+		{padding: 0px 0px 15px 0px; 
+		}
+#l-11
+		{font-size: 14px;
+		line-height: 145%;
+		}
+#r-1 p
+		{float:right;
+		padding:0px 65px 30px 65px;
+		}		
+#r-1 img
+		{width: 250px;
+		}
+#r-2 p
+		{float:right;
+		padding:0px 65px 30px 65px;
+		}	
+#r-2 img
+		{width: 250px;
+		}
+#r-3 p
+		{float:right;
+		padding:0px 65px 30px 65px;
+		}	
+#r-3 img
+		{width: 250px;
+		}

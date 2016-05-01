@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+#l-1 
+	{padding: 0px 0px 25px 0px;
+	}
+#l-1 p
+	{
+	}
+	
+#l-2 
+	{padding: 0px 0px 15px 0px;
+	}
+#l-2 p
+	{padding: 10px 0px 0px 0px;
+	text-indent: 25px;
+	}
+#l-2 h2+p
+	{padding: 0px 0px 0px 0px;
+	}
+	
+#l-3 
+	{padding: 0px 0px 15px 0px;
+	}
+#l-3 p
+	{padding: 10px 0px 0px 0px;
+	text-indent: 25px;
+	}
+#l-3 h2+p
+	{padding: 0px 0px 0px 0px;
+	}
+	
+#l-4 
+	{padding: 0px 0px 15px 0px;
+	}
+#l-4 p
+	{padding: 10px 0px 0px 0px;
+	text-indent:25px;	
+	}
+#l-4 h2+p
+	{padding: 0px 0px 0px 0px;
+	}
+	
+#r-1 img
+	{width: 345px;
+	float: right;
+	padding-right: 15px;
+	}
+
+
+
